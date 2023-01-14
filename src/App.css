@@ -1,0 +1,103 @@
+body {
+  background: #dedede;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  margin: 0px 350px;
+  padding: 20px 50px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0 0 0/0.2);
+  height: 100%;
+  flex-direction: column;
+}
+
+.app h1 {
+  text-transform: lowercase;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2.5px;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.recipe {
+  padding: 20px 10px;
+  border: 1px solid #dedede;
+  margin: 15px 0;
+  transition: 0.5s all;
+}
+
+p {
+  color: #a19a9a;
+}
+.recipe:hover {
+  box-shadow: 5px 5px 0px rgb(0 0 0/0.09);
+  transform: translateY(-5px);
+}
+
+.recipe h1,
+h2 {
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 0 30px;
+  text-decoration: dotted underline;
+}
+
+h2 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.recipe ul li {
+  margin: 12px auto;
+  list-style-type: lower-alpha;
+  font-style: italic;
+}
+
+.recipe p {
+  padding: 0 30px;
+  font-size: 0.9rem;
+}
+
+.categories {
+  max-width: 250px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.category {
+  background-color: white;
+  margin: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  padding: 15px 8px;
+  transition: 0.05s all;
+}
+
+.category img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.category h5 {
+  font-size: 1rem;
+  padding-left: 25px;
+}
+
+.category p {
+  width: 200px;
+  max-height: 100px;
+  padding: 0 20px;
+  margin: 0;
+  color: #a19a9a;
+}
+
+.category:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.05);
+}
