@@ -38,6 +38,10 @@ p {
   transform: translateY(-5px);
 }
 
+a {
+  text-decoration: none;
+}
+
 .recipe h1,
 h2 {
   letter-spacing: 2px;
