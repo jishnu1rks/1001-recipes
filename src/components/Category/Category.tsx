@@ -10,9 +10,8 @@ const Category = ({
   return (
     <Link to={`categoryRecipe/${strCategory}`}>
       <div className="category">
-        <img src={strCategoryThumb} alt={strCategory} />
         <h5>{strCategory}</h5>
-        <p>{strCategoryDescription.slice(0, 100)}</p>
+        <img src={strCategoryThumb} alt={strCategory} />
       </div>
     </Link>
   );

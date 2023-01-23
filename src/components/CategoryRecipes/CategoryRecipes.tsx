@@ -29,8 +29,8 @@ const CategoryRecipes = () => {
         {recipes.map((recipe: any) => (
           <Link to={`/meal/${recipe.idMeal}`} key={recipe.idMeal}>
             <div className="recipe">
+              <h5>{recipe.strMeal}</h5>
               <img src={recipe.strMealThumb} alt={recipe.strMeal} />
-              <h1>{recipe.strMeal}</h1>
             </div>
           </Link>
         ))}
